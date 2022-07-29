@@ -44,7 +44,7 @@
                     "param-id": "cm-03_odp.03",
                     "constraints": [
                         {
-                            "select": " {{ insert: param, cm-03_odp.04 }} "
+                            "description": " {{ insert: param, cm-03_odp.04 }} "
                         }
                     ]
                 },
