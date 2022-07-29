@@ -26,11 +26,7 @@
             "set-parameters": [
                 {
                     "param-id": "cm-03_odp.01",
-                    "constraints": [
-                        {
-                            "prose": "forever"
-                        }
-                    ]
+                    "values": "forever"
                 },
                 {
                     "param-id": "cm-03_odp.02",
