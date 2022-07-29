@@ -34,7 +34,9 @@
                 },
                 {
                     "param-id": "cm-03_odp.03",
-                    "choice": " {{ insert: param, cm-03_odp.04 }} "
+                    "select": {
+                        "choice": " {{ insert: param, cm-03_odp.04 }} "
+                    }
                 },
                 {
                     "param-id": "cm-03_odp.04",
