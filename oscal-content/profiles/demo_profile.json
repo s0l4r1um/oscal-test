@@ -28,7 +28,7 @@
                     "param-id": "cm-03_odp.01",
                     "constraints": [
                         {
-                            "description": "forever"
+                            "prose": "forever"
                         }
                     ]
                 },
