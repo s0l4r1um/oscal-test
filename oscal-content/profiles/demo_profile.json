@@ -26,31 +26,19 @@
             "set-parameters": [
                 {
                     "param-id": "cm-03_odp.01",
-                    "values": "forever"
+                    "values": "eternity"
                 },
                 {
                     "param-id": "cm-03_odp.02",
-                    "constraints": [
-                        {
-                            "description": "Program XYZ CCB"
-                        }
-                    ]
+                    "values": "Program XYZ CCB"
                 },
                 {
                     "param-id": "cm-03_odp.03",
-                    "constraints": [
-                        {
-                            "description": " {{ insert: param, cm-03_odp.04 }} "
-                        }
-                    ]
+                    "values": " {{ insert: param, cm-03_odp.04 }} "
                 },
                 {
                     "param-id": "cm-03_odp.04",
-                    "constraints": [
-                        {
-                            "description": "Monthly"
-                        }
-                    ]
+                    "values": "monthly"
                 }
             ]
         }
