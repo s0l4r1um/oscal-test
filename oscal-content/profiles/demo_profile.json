@@ -34,7 +34,7 @@
                 },
                 {
                     "param-id": "cm-03_odp.03",
-                    "values": " {{ insert: param, cm-03_odp.04 }} "
+                    "values": {{ insert: param, cm-03_odp.04 }}
                 },
                 {
                     "param-id": "cm-03_odp.04",
