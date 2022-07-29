@@ -1,0 +1,62 @@
+{
+    "profile": {
+        "uuid": "e387f85c-1eb3-4de2-81a0-b00e61de76c7",
+        "metadata": {
+            "title": "Test Profile",
+            "last-modified": "2022-07-29T16:11:00Z",
+            "version": "Draft",
+            "oscal-version": "1.0.4"
+        },
+        "imports": [
+            {
+                "href": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+                "include-controls": [
+                    {
+                        "with-ids": [
+                            "CM-3"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "merge": {
+            "as-is": true
+        },
+        "modify": {
+            "set-parameters": [
+                {
+                    "param-id": "cm-03_odp.01",
+                    "constraints": [
+                        {
+                            "description": "forever"
+                        }
+                    ]
+                },
+                {
+                    "param-id": "cm-03_odp.02",
+                    "constraints": [
+                        {
+                            "description": "Program XYZ CCB"
+                        }
+                    ]
+                },
+                {
+                    "param-id": "cm-03_odp.03",
+                    "constraints": [
+                        {
+                            "select": " {{ insert: param, cm-3_prm_4 }} "
+                        }
+                    ]
+                },
+                {
+                    "param-id": "cm-03_odp.04",
+                    "constraints": [
+                        {
+                            "description": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
